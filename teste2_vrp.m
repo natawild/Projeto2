@@ -107,7 +107,7 @@ maxTC=700;
 
 % C = dists(XY,XY,2);
 h = pplot(XY,'k.'); 
- pplot(XY,num2cellstr(1:size(XY,1)))
- [loc,TC] = vrpsavings(C,{q,Q},{ld},{'maxTCfeas',maxTC},[],h);
- [loc1,TC1] = vrpcrossover(loc,C,{q,Q},{ld},{'maxTCfeas',maxTC},h);
+pplot(XY,num2cellstr(1:size(XY,1)))
+[loc,TC] = vrpsavings(C,{q,Q},{ld},{'maxTCfeas',maxTC},[],h);
+[loc,TC1] = vrpcrossover(loc,C,{q,Q},{ld},{'maxTCfeas',maxTC},h);
  
